@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#EFE5D5;
+    font-family: 'Open Sans', sans-serif;
+}
+.personal-notes__app{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.personal-notes__header{
+    padding-bottom: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color:#EFE5D5;
+}
+
+.personal-notes__header h1{
+    background-color: #EFE5D5;
+    text-align: center;
+    height: 4rem;
+    padding: 0.7rem;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.7rem;
+    font-size: 2.5rem;
+}
+
+.personal-notes__searchBar{
+    
+    margin-top: 1rem;
+    width: 90%;
+    height: 2.5rem;
+    background-color: rgba(255, 255, 255,100);
+    border-radius: 3rem;
+    text-align: center;
+    margin-left:auto;
+    margin-right: auto;
+}
+.personal-notes__searchBar input[type=text]{
+    background-color: white;
+    margin: auto;
+    font-size: 1.2em;
+    width: 90%;
+    height: 90%;
+    border: none;
+    outline: none;
+    padding-top:0.2rem;
+}
+
+
+.personal-notes__cardButtons{
+    padding-bottom: 0rem;
+}
+
+.personal-notes__list{
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    width: 96%;
+    overflow: auto;
+    column-gap: 1rem;
+    row-gap: 1rem;
+    grid-template-columns: 49% 49%;
+    grid-template-rows: auto 1fr;
+    justify-content: center;
+    padding: 1rem;
+    
+}
+
+.personal-notes__card{
+    display: flex;
+    flex-direction: column;
+    height: 11rem;
+    margin-left: auto;
+    margin-right:auto;
+    padding: 0.8rem; 
+    width: 100%;
+    border: 1px solid #222
+}
+
+.personal-notes__card:hover{
+    box-shadow: 6px 6px 0px 0px rgba(0,0,0,1);
+    border: 2px solid #222
+}
+
+.personal-notes__item{
+    height: 85%;
+}
+
+.personal-notes__listEmpty{
+    padding-top: 3rem;
+    text-align: center;
+}
+.personal-notes__input{
+    margin-top: 1rem;
+    padding: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1rem;
+    width: 50%;
+    box-shadow: 6px 6px 0px 0px rgba(0,0,0,1);
+    background-color:#EFE5D5;
+    border: 1px solid #222
+}
+
+.personal-notes__inputTitle{
+    width: 100%;
+    height: 2rem;
+    font-size: 1.3rem;
+}
+
+.personal-notes__inputBody{
+    margin-top: 0.5rem;
+    width: 100%;
+    height: 10rem;
+    font-size: 1rem;
+}
+
+.personal-notes__input button{
+    margin-top: 0.5rem;
+    margin-left: 86%;
+    width: 4rem;
+    height: 2rem;
+}
+
+.personal-notes__headerButtons{
+    padding-left: 3rem;
+    padding-top: 0.6rem;
+}
+
+.personal-notes__headerButtons button{
+    height: 2rem;
+}
+button{
+    background-color: #7066e0;
+    color: white;
+    font-weight: bold;
+    border-radius: 0.4rem;
+    outline: none;
+    border: none;
+}
+button:hover{
+    background-color: #5147c7;
+}
+button:active{
+    background-color: #382ea3;
+}
+.addNotesButton{
+    width: 3rem;
+    
+}
+.seeArchiveButton{
+    margin-left: 0.3rem;
+    width: 7rem;
+}
+
+.personal-notes__body{
+    font-size: 13.3px;
+}
+.personal-notes__card button{
+    height: 2rem;
+}
+
+.deleteButton{
+    width: 2rem;
+}
+.archiveButton{
+    margin-left: 0.5rem;
+    width: 5rem;
+}
